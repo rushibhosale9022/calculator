@@ -1,9 +1,9 @@
 # calculator
 simple calculator using lambda function
-mport sys 
+
+import sys 
 import my_logger
 try:
-    
     
     title = ("calculator")
     print(title.center(60,'*'))
