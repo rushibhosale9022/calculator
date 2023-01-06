@@ -43,8 +43,6 @@ try:
         elif choice == 5:
             sys.exit()        
         else:
-            print("Enter valid choice")
-
-           
+            print("Enter valid choice")          
 except BaseException as ex:
     my_logger.logging(f"error occured = {ex}") 
